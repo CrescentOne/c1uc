@@ -1,0 +1,27 @@
+{
+  "name": "@crescentone/upper-case",
+  "version": "1.0.0",
+  "description": "upper case node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrescentOne/c1uc.git"
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "author": "Ahmad Kassem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrescentOne/c1uc/issues"
+  },
+  "homepage": "https://github.com/CrescentOne/c1uc#readme",
+  "node-red": {
+    "nodes": {
+      "upper-case": "upper-case.js"
+    }
+  }
+}
